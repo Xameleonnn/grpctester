@@ -1,0 +1,14 @@
+syntax = "proto3";
+option go_package = "./;tester";
+
+service Handshaker {
+    rpc Handshake (HandshakeReq) returns (HandshakeResp) {}
+}
+
+message HandshakeReq {
+    string helloOut = 1;
+}
+
+message HandshakeResp {
+    string helloBack = 1;
+}
