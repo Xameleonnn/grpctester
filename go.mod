@@ -1,4 +1,4 @@
-module testgrpc
+module github.com/Xameleonnn/grpctester
 
 go 1.19
 
@@ -14,3 +14,5 @@ require (
 	golang.org/x/text v0.6.0 // indirect
 	google.golang.org/genproto v0.0.0-20230110181048-76db0878b65f // indirect
 )
+
+replace testgrpc => github.com/Xameleonnn/grpctester v0.0.0-20230208140950-fd7a234b51a7
