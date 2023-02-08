@@ -1,4 +1,4 @@
-module testgrpc
+module github.com/Xameleonnn/grpctester
 
 go 1.19
 
